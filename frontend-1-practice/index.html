@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="breadcrumbs">Главная / Запись онлайн</div>
+
+        <div class="stepper">
+            <div class="step completed">
+                <div class="step-circle"></div>
+                <span>Мастер</span>
+            </div>
+            <div class="step completed">
+                <div class="step-circle"></div>
+                <span>Услуга</span>
+            </div>
+            <div class="step active">
+                <div class="step-circle">3</div>
+                <span>Дата и время</span>
+            </div>
+            <div class="step">
+                <div class="step-circle">4</div>
+                <span>Ваши данные</span>
+            </div>
+            <div class="step">
+                <div class="step-circle">5</div>
+                <span>Проверка</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="booking-section">
+            <h1>Найдём время для себя</h1>
+            <p class="subtitle">Женская стрижка у Марии Волковой займёт 60 минут. Всё остальное подождёт.</p>
+
+            <div class="calendar-card">
+                <div class="calendar-header">
+                    <h2>Ноябрь 2026</h2>
+                    <div class="calendar-nav">
+                        <button aria-label="Предыдущий месяц">&lt;</button>
+                        <button aria-label="Следующий месяц">&gt;</button>
+                    </div>
+                </div>
+
+                <div class="calendar-grid">
+                    <div class="weekday">ПН</div>
+                    <div class="weekday">ВТ</div>
+                    <div class="weekday">СР</div>
+                    <div class="weekday">ЧТ</div>
+                    <div class="weekday">ПТ</div>
+                    <div class="weekday">СБ</div>
+                    <div class="weekday">ВС</div>
+
+                    <div class="day disabled">26</div>
+                    <div class="day disabled">27</div>
+                    <div class="day disabled">28</div>
+                    <div class="day disabled">29</div>
+                    <div class="day disabled">30</div>
+                    <div class="day disabled">31</div>
+                    <div class="day disabled">1</div>
+
+                    <div class="day available">2</div>
+                    <div class="day available">3</div>
+                    <div class="day available">4</div>
+                    <div class="day selected available">5</div>
+                    <div class="day available">6</div>
+                    <div class="day available">7</div>
+                    <div class="day disabled">8</div>
+
+                    <div class="day available">9</div>
+                    <div class="day available">10</div>
+                    <div class="day available">11</div>
+                    <div class="day available">12</div>
+                    <div class="day available">13</div>
+                    <div class="day available">14</div>
+                    <div class="day disabled">15</div>
+
+                    <div class="day available">16</div>
+                    <div class="day available">17</div>
+                    <div class="day available">18</div>
+                    <div class="day available">19</div>
+                    <div class="day available">20</div>
+                    <div class="day available">21</div>
+                    <div class="day disabled">22</div>
+
+                    <div class="day available">23</div>
+                    <div class="day available">24</div>
+                    <div class="day available">25</div>
+                    <div class="day available">26</div>
+                    <div class="day available">27</div>
+                    <div class="day available">28</div>
+                    <div class="day disabled">29</div>
+
+                    <div class="day available">30</div>
+                    <div class="day disabled">1</div>
+                    <div class="day disabled">2</div>
+                    <div class="day disabled">3</div>
+                    <div class="day disabled">4</div>
+                    <div class="day disabled">5</div>
+                    <div class="day disabled">6</div>
+                </div>
+
+                <div class="legend">
+                    <div class="legend-item">
+                        <div class="legend-dot"></div>
+                        <span>Есть свободное время</span>
+                    </div>
+                    <div class="legend-item">
+                        <span>Светлые даты — нет мест</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="time-section">
+                <h3>Утро</h3>
+                <div class="time-grid">
+                    <div class="time-slot disabled">10:00</div>
+                    <div class="time-slot disabled">11:00</div>
+                    <div class="time-slot">12:00</div>
+                    <div class="time-slot">13:00</div>
+                    <div class="time-slot selected">14:00</div>
+                    <div class="time-slot">15:00</div>
+                    <div class="time-slot">16:00</div>
+                    <div class="time-slot disabled">17:00</div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button class="btn-back">
+                    <span>←</span> Назад
+                </button>
+                <button class="btn-primary">Ввести контактные данные</button>
+            </div>
+        </section>
+
+        <aside class="visit-card">
+            <h2>Ваш визит</h2>
+
+            <div class="master-info">
+                <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Мария Волкова">
+                <div>
+                    <h3>Мария Волкова</h3>
+                    <p>Топ-стилист • ★ 4,9</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="summary-row">
+                <span class="label">Услуга</span>
+                <span>Женская стрижка • 60 минут</span>
+            </div>
+            <div class="summary-row">
+                <span class="label">Дата и время</span>
+                <span>Чт, 5 ноября 2026 • 14:00–15:00</span>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="summary-row total">
+                <span class="label">Итого</span>
+                <span>3 200 ₽</span>
+            </div>
+
+            <p class="visit-note">Оплата в салоне после визита. В стоимость входят консультация, мытьё и укладка.</p>
+
+            <div class="address">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                <span>Покровка, 14</span>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Тихо. С заботой о вас.</p>
+        <p>Москва, ул. Покровка, 14 · Ежедневно 10:00–21:00 · <a href="#">Политика конфиденциальности</a></p>
+    </footer>
+</body>
+</html>
